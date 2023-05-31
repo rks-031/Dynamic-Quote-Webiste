@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+        --accent-color: hsl(204, 90%, 50%);
+        --my-color: #0781f2;
+        --curve: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(19, 23, 49);
+}
+
+.container {
+        position: relative;
+        width: 550px;
+        height: 450px;
+        background: hsl(209, 72%, 57%);
+        box-shadow: 0 0 20px -3px rgba(255, 255, 255, 0.6);
+        border-radius: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.container .inner-box {
+        position: relative;
+        width: 80%;
+        height: 75%;
+        background: #f5f5f5;
+        border-radius: 1.5vh;
+        box-sizing: border-box;
+}
+
+.container .inner-box .content {
+        position: relative;
+        height: 70%;
+        margin: 2.5rem 1.25rem 0.5rem;
+}
+
+.container .inner-box .content .icon {
+        margin-bottom: 15px;
+}
+
+.container .inner-box .content .icon .start-quote {
+        color: #bfbfbf;
+        transition: all 0.2s linear;
+}
+
+.container .inner-box .content .text {
+        position: relative;
+        height: 55%;
+        margin-left: 2rem;
+        user-select: none;
+}
+
+.container .inner-box .content .text .quote {
+        line-height: 1.5;
+        color: #252525;
+        font-size: 1.3rem;
+        font-weight: 500;
+        font-style: italic;
+        font-family: "Courgette", cursive;
+        letter-spacing: 0.015rem;
+        margin-bottom: 1.25rem;
+}
+
+.container .inner-box .content .author_left {
+        margin-top: 0.5rem;
+        position: relative;
+        text-align: right;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.05rem;
+        font-family: "Nunito", sans-serif;
+        letter-spacing: 0.055rem;
+        user-select: none;
+}
+
+.container .inner-box .content .author_left .name {
+        position: relative;
+        padding-left: 0.25rem;
+        display: inline-block;
+}
+
+.container .inner-box .nQBtn {
+        position: relative;
+        margin: 0.5rem auto 0;
+        display: flex;
+        padding: 0.5rem 1.5rem;
+        border-radius: 2vh;
+}
